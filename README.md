@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/bOGTFsw"  ><a href="//imgur.com/a/bOGTFsw">ScienceHub Walkthrough</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/bOGTFsw"  ><a href="//imgur.com/a/bOGTFsw">ScienceHub Walkthrough</a></blockquote>
 https://imgur.com/a/bOGTFsw.gif
 
 ## Notes
