@@ -1,0 +1,146 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sideBar {
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sideBar h1 {
+  margin-bottom: 10px;
+}
+
+.sideBar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sideBar a:hover {
+  background-color: #555;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+.header {
+  color: #333;
+}
+
+.Sorting {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Sorting div {
+  margin-right: 20px;
+}
+
+.search-input {
+  padding: 5px;
+}
+
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -8px;
+}
+
+.displayCrew {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.displayCrew:hover {
+  background-color: #f9f9f9;
+}
+
+.Creator {
+  display: grid;
+  grid-template-rows: .15fr .15fr .55fr .15fr;
+  grid-gap: 20px;
+  padding: 10px;
+  justify-content: center;
+  justify-self: center;
+  height: 500px;
+}
+
+.Creator input {
+  width: 300px;
+  white-space: pre-wrap;
+}
+
+.Updater {
+  max-width: 400px;
+  margin: auto;
+}
+
+.PostInfo {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+.comments {
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comment {
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.PostInfo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles for Home component */
+
+.Home {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.Home h1 {
+  color: #333;
+}
+
+.Home p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Add more styles as needed */
